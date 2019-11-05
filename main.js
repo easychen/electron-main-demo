@@ -9,7 +9,7 @@ process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
 let  win;
 function createWindow()
 {
-    win = new BrowserWindow( { width:1200,height:900,resizable:true,frame:false,transparent: true, hasShadow: true, webPreferences: {
+    win = new BrowserWindow( { width:1200,height:900,resizable:true,frame:false,transparent: false, hasShadow: true, webPreferences: {
         experimentalFeatures: true,
         nodeIntegration: true,
         webSecurity: false
